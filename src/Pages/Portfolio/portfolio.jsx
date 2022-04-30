@@ -48,7 +48,7 @@ export const Portfolio = () => {
     }
   ]
   return (
-    <section>
+    <section id='portfolio'>
       <h5>my recent work</h5>
       <h2>portfolio</h2>
       
