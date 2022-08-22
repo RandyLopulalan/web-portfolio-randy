@@ -1,14 +1,15 @@
 import React from 'react'
 import "./portfolio.scss"
 import IMG1 from "../../Assets/empty.jpg"
+import IMG2 from "../../Assets/eduwork-store.png"
 
 export const Portfolio = () => {
   const data = [
     {
       id: 1,
-      image: IMG1,
-      title: "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
-      github: "https://github.com",
+      image: IMG2,
+      title: "E-commerce",
+      github: "https://github.com/RandyLopulalan/eduwork-store",
       gemo: "https://github.com"
     },
     {
@@ -63,7 +64,7 @@ export const Portfolio = () => {
                 <h3>{title}</h3>
                 <div className="portfolio__item-cta">
                   <a href={github} rel='noreferrer' className='btn' target="_blank">github</a>
-                  <a href={demo} rel='noreferrer' className='btn btn-primary' target="_blank">live demo</a>
+                  <a href={demo} rel='noreferrer' className='btn btn-primary' target="_blank">detail</a>
                 </div>
               </article>
             )
