@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/web-portfolio-randy/static/css/main.1d48b8cc.css",
-    "main.js": "/web-portfolio-randy/static/js/main.4d5084d5.js",
+    "main.js": "/web-portfolio-randy/static/js/main.7568f5e6.js",
     "static/media/CVrandylopulalan.pdf": "/web-portfolio-randy/static/media/CVrandylopulalan.3b2d0f2060840289629f.pdf",
     "static/media/home.png": "/web-portfolio-randy/static/media/home.7e8b0a5e33df667b622a.png",
     "static/media/about.jpg": "/web-portfolio-randy/static/media/about.2696e16f9441f7657101.jpg",
@@ -9,10 +9,10 @@
     "static/media/empty.jpg": "/web-portfolio-randy/static/media/empty.ed181057483f25feea9e.jpg",
     "index.html": "/web-portfolio-randy/index.html",
     "main.1d48b8cc.css.map": "/web-portfolio-randy/static/css/main.1d48b8cc.css.map",
-    "main.4d5084d5.js.map": "/web-portfolio-randy/static/js/main.4d5084d5.js.map"
+    "main.7568f5e6.js.map": "/web-portfolio-randy/static/js/main.7568f5e6.js.map"
   },
   "entrypoints": [
     "static/css/main.1d48b8cc.css",
-    "static/js/main.4d5084d5.js"
+    "static/js/main.7568f5e6.js"
   ]
 }
