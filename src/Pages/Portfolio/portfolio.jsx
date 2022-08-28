@@ -10,42 +10,42 @@ export const Portfolio = () => {
       image: IMG2,
       title: "E-commerce",
       github: "https://github.com/RandyLopulalan/eduwork-store",
-      gemo: "https://github.com"
+      demo: "https://youtu.be/HD99ERsR8Ss"
     },
     {
       id: 2,
       image: IMG1,
       title: "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
       github: "https://github.com",
-      gemo: "https://github.com"
+      demo: "https://github.com"
     },
     {
       id: 3,
       image: IMG1,
       title: "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
       github: "https://github.com",
-      gemo: "https://github.com"
+      demo: "https://github.com"
     },
     {
       id: 4,
       image: IMG1,
       title: "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
       github: "https://github.com",
-      gemo: "https://github.com"
+      demo: "https://github.com"
     },
     {
       id: 5,
       image: IMG1,
       title: "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
       github: "https://github.com",
-      gemo: "https://github.com"
+      demo: "https://github.com"
     },
     {
       id: 6,
       image: IMG1,
       title: "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
       github: "https://github.com",
-      gemo: "https://github.com"
+      demo: "https://github.com"
     }
   ]
   return (
