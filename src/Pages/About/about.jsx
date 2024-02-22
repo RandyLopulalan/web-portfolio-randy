@@ -23,12 +23,12 @@ export const About = () => {
             <article className="about__card">
               <FaAward className="about__icon" />
               <h5>Experience</h5>
-              <small>1+ years study</small>
+              <small>3+ years of experience</small>
             </article>
             <article className="about__card">
               <FaBriefcase className="about__icon" />
               <h5>Fullstack MERN</h5>
-              <small>internship at eduwork.id</small>
+              <small>bootcamp at eduwork.id</small>
             </article>
             <article className="about__card">
               <VscFolderLibrary className="about__icon" />
@@ -37,8 +37,8 @@ export const About = () => {
             </article>
           </div>
           <p>
-            I'm a web developer, I've been studying since 2021. The first time I
-            learned html, css, js and continued study at eduwork. I currently
+            I'm a fullstack developer, I've been studying since 2021. The first time I
+            learned html, css, javascript and continued study at eduwork. I currently
             have experience making several web-based applications
           </p>
           <a href="#contact" className="btn btn-primary">

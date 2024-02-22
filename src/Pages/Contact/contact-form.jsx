@@ -1,32 +1,33 @@
 import React from "react";
 import emailjs from "emailjs-com";
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+
 //need to install emailjs -> npm install emailjs-com
 
 export const ContactForm = () => {
 
   const sendEmail = (e) => {
     e.preventDefault();
-
-    emailjs
-      .sendForm(
-        "service_6gv2qs9",
-        "template_vvda27r",
-        e.target,
-        "CObHvRtFys0beO9Ox"
-      )
-      .then(
-        (result) => {
-          console.log(result.text);
-        },
-        (error) => {
-          console.log(error.text);
-        }
-      );
+    emailjs.sendForm(
+      process.env.REACT_APP_EMAIL_KEY,
+      process.env.REACT_APP_EMAIL_TEMPLATE,
+      e.target,
+      process.env.REACT_APP_EMAIL_USER
+    )
+      .then((res) => {
+          toast.success('Email sent successfully!')
+      },
+      (error) => {
+        console.log(error.text);
+        toast.success('Something went wrong!')
+      });
     e.target.reset();
   };
 
   return (
     <form onSubmit={sendEmail}>
+      <ToastContainer />
       <input
         type="text"
         name="name"

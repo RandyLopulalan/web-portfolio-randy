@@ -16,7 +16,7 @@ export const Contact = () => {
           <article className="contact__option">
             <MdOutlineMail className='contact__option-icon'/>
             <h4>email</h4>
-            <h5>randylopulalan07@gmail.com</h5>
+            <h5 style={{textTransform: 'none'}}>randylopulalan07@gmail.com</h5>
             <a href="mailto:randylopulalan07@gmail.com"> send a message</a>
           </article>
           <article className="contact__option">

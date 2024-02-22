@@ -3,6 +3,7 @@ import "./nav.scss";
 import { AiOutlineHome } from "react-icons/ai";
 import { FiUser } from "react-icons/fi";
 import { BiBook } from "react-icons/bi";
+import { BiBriefcase } from "react-icons/bi";
 // import { RiServiceLine } from "react-icons/ri";
 import { RiMessage2Line } from "react-icons/ri";
 
@@ -31,6 +32,13 @@ const Nav = () => {
         className={currentClass === "#experience" ? "active" : ""}
       >
         <BiBook />
+      </a>
+      <a
+        href="#portfolio"
+        onClick={() => setCurrentClass((prev) => (prev = "#portfolio"))}
+        className={currentClass === "#portfolio" ? "active" : ""}
+      >
+        <BiBriefcase />
       </a>
       {/* <a
         href="#services"
